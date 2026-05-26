@@ -33,7 +33,9 @@ php artisan key:generate
 
 Create the SQLite database file:
 
+```bash
 touch database/database.sqlite
+```
 
 Then update your .env file with:
 
