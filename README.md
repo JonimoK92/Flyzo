@@ -17,34 +17,13 @@ composer install
 ```
 2. Configure environment
 
-Copy the example environment file:
-
-```bash
-cp .env.example .env
-```
-
 Generate application key:
 
 ```bash
 php artisan key:generate
 ```
 
-3. Database setup (SQLite)
-
-Create the SQLite database file:
-
-```bash
-touch database/database.sqlite
-```
-
-Then update your .env file with:
-
-```bash
-DB_CONNECTION=sqlite
-DB_DATABASE=database/database.sqlite
-```
-
-4. Run migrations
+3. Run migrations
 
 ```bash
 php artisan migrate
