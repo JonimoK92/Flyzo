@@ -27,7 +27,7 @@ Generate application key:
 
 ```bash
 php artisan key:generate
-```bash
+```
 
 3. Database setup (SQLite)
 
@@ -36,6 +36,7 @@ Create the SQLite database file:
 touch database/database.sqlite
 
 Then update your .env file with:
+
 ```bash
 DB_CONNECTION=sqlite
 DB_DATABASE=database/database.sqlite
