@@ -16,30 +16,30 @@ Before starting the project, make sure you have the following installed:
 cp .env.example .env
 ```
 
-### 1. Install dependencies
+### 2. Install dependencies
 
 ```bash
 composer install
 ```
-### 2. Generate application key:
+### 3. Generate application key:
 
 ```bash
 php artisan key:generate
 ```
 
-### 3. Run migrations
+### 4. Run migrations
 
 ```bash
 php artisan migrate
 ```
 
-### 4. Start the Laravel development server
+### 5. Start the Laravel development server
 
 ```bash
 php artisan serve
 ```
 
-### 5. Then open your browser at
+### 6. Then open your browser at
 
 ```
 http://127.0.0.1:8000
