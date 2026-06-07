@@ -10,6 +10,12 @@ Before starting the project, make sure you have the following installed:
 
 ## 📦 Project setup
 
+### 1. Create environment file
+
+```bash
+cp .env.example .env
+```
+
 ### 1. Install dependencies
 
 ```bash
