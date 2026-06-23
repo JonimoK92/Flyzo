@@ -1,3 +1,27 @@
+# ✈️ Aviation Ticketing Platform
+
+A full-stack web application for airline ticket booking and flight management, developed with Laravel. The project provides a complete booking workflow, from flight search to reservation management, while demonstrating modern web development practices.
+
+## ✨ Features
+
+- User authentication 
+- Flight search and ticket booking
+- Reservation management
+- Administrative dashboard
+- SQLite database integration
+- MVC architecture with Laravel
+
+## 🛠️ Tech Stack
+
+- PHP 8
+- Laravel
+- SQLite
+- HTML5
+- CSS3
+- Bootstrap
+
+---
+
 ## ⚙️ Prerequisites (Before running the project)
 
 Before starting the project, make sure you have the following installed:
